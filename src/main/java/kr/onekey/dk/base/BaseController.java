@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping({"/api/{version}"})
 public class BaseController {
 
-    @Autowired
-    public HttpServletRequest request;
+  @Autowired
+  public HttpServletRequest request;
 
     public Locale getLocale() {
-        return Locale.forLanguageTag(request.getHeader("Accept-Language").replace("_", "-"));
+      return Locale.forLanguageTag(request.getHeader("Accept-Language").replace("_", "-"));
     }
 }

@@ -153,3 +153,6 @@ local.properties
 .classpath
 .project
 settings.json
+
+
+private.json
