@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @AllArgsConstructor
 @Controller
 @RequestMapping("/manager")
-public class DeviceController {
+public class UserController {
 
-    private final Logger logger = LogManager.getLogger(DeviceController.class);
+    private final Logger logger = LogManager.getLogger(UserController.class);
 
     @Autowired
     DeviceService deviceService;
@@ -22,7 +22,7 @@ public class DeviceController {
     @GetMapping("/openerList")
     public String openerList() {
         logger.info("openerList : ");
-        return String.valueOf(deviceService);
+        return String.valueOf(deviceService.opnerList());
     }
 
 }

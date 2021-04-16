@@ -1,0 +1,6 @@
+spring:
+  profiles: test
+  datasource:
+    url: jdbc:mysql://localhost:3306/dktest?serverTimezone=Asia/Seoul&characterEncoding=utf8
+    username: root
+    password: root
