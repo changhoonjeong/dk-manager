@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class PushPublisher {
 
-  private final Logger logger = LogManager.getLogger(PushPublisher.class)
+  private final Logger logger = LogManager.getLogger(PushPublisher.class);
 
   public String sendFCMMesage(String registrationToken, String title, String body) {
     String response = "";

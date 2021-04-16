@@ -12,13 +12,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class FirebaseConfig {
   
-  @Bean
-  public FirebaseApp iniFirebaseApp() throws IOException {
-
-    FirebaseOptions options = FirebaseOptions.builder()
-    .setCredentials(GoogleCredentials.getApplicationDefault())
-    .build();
-
-    return FirebaseApp.initializeApp(options);
-  }
+//  @Bean
+//  public FirebaseApp iniFirebaseApp() throws IOException {
+//
+//    FirebaseOptions options = FirebaseOptions.builder()
+//    .setCredentials(GoogleCredentials.getApplicationDefault())
+//    .build();
+//
+//    return FirebaseApp.initializeApp(options);
+//  }
 }

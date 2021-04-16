@@ -33,6 +33,10 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	//json
+	implementation "org.json:json:20190722"
+	compile('com.google.code.gson:gson:2.8.5')
 }
 
 test {
