@@ -27,6 +27,7 @@ class ManagerServiceTest {
     @Autowired
     DkManagerRepository managerRepository;
 
+    @Autowired
     private HttpSession session;
 
     @Test
